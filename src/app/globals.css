@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+  background-color: #F4F1ED;
+  color: #2D2D2D;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  font-family: Georgia, Cambria, serif;
+  color: #1A3C40;
+}
+
+.prose p { line-height: 1.8; margin-bottom: 1.25rem; }
+.prose blockquote {
+  border-left: 4px solid #2A9D8F;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #4B5563;
+}
+.prose strong { color: #1A3C40; }
+.prose a { color: #2A9D8F; text-decoration: underline; }
